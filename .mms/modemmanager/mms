@@ -1,0 +1,15 @@
+[Modem Manager]
+CarrierMMSC=http://mms.vtext.com/servlets/mms
+MMS_APN=vzwinternet
+CarrierMMSProxy=NULL
+DefaultModemNumber=NULL
+AutoProcessOnConnection=true
+AutoProcessSMSWAP=true
+IMSI=xxxxxxxxxxxx
+
+[Settings]
+UseDeliveryReports=false
+TotalMaxAttachmentSize=1100000
+MaxAttachments=25
+AutoCreateSMIL=false
+ForceCAres=false
