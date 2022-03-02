@@ -1,0 +1,19 @@
+[Unit]
+Description = mmsd-tng
+After = network.target
+
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+[Service]
+Type = simple
+PIDFile = /run/mmsdtng.pid
+ExecStart = mmsdtng
+
+Restart = on-failure
+RestartSec=5s
+
+ExecReload = /sbin/start-stop-daemon #determine if needed
+
+[Install]
+WantedBy = multi-user.target
