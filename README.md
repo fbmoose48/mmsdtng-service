@@ -3,6 +3,8 @@ systemD service for mmsd-tng
 
 Automated script run at boot manged by systemd
 
+`sudo pacman -Syu mmsd-tng`
+
 `git clone https://github.com/fbmoose48/mmsdtng-service.git`
 
 `cd mmsdtng-service`
